@@ -1,0 +1,8 @@
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\yuhyeet\yuhyeet\bin\Debug\yuhyeet.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\yuhyeet\yuhyeet\bin\Debug\yuhyeet.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\yuhyeet\yuhyeet\bin\Debug\yuhyeet.pdb
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\yuhyeet\yuhyeet\obj\Debug\yuhyeet.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\yuhyeet\yuhyeet\obj\Debug\yuhyeet.pdb
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek6\yuhyeet\yuhyeet\bin\Debug\yuhyeet.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek6\yuhyeet\yuhyeet\obj\Debug\yuhyeet.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek6\yuhyeet\yuhyeet\obj\Debug\yuhyeet.pdb

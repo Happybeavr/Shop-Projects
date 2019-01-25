@@ -1,0 +1,2 @@
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\User Input\User Input\bin\Debug\User Input.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek6\User Input\User Input\bin\Debug\User Input.exe.config

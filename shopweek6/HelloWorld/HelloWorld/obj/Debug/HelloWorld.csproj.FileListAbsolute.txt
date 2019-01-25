@@ -1,0 +1,9 @@
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+\\hawk\stuhomedirs\Classof2021\jdonaher21\Desktop\shopweek6\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+\\hawk\stuhomedirs\Classof2021\jdonaher21\Desktop\shopweek6\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+\\hawk\stuhomedirs\Classof2021\jdonaher21\Desktop\shopweek6\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
