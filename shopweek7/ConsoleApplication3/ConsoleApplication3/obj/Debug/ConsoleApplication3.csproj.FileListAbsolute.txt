@@ -1,0 +1,9 @@
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek7\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek7\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+\\hawk\stuhomedirs\classof2021\jdonaher21\Desktop\shopweek7\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
