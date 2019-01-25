@@ -1,0 +1,51 @@
+﻿body
+{
+    background-color: lightsalmon;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family:Arial;
+}
+nav {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    align-content:center;
+}
+nav ul li:hover {
+    background-color: rebeccapurple;
+}
+li{
+    color:white;
+}
+ul li {
+    text-decoration: none;
+    line-height: 15px;
+    float:left;
+    margin-left:2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#yeeter{
+    font-size: 30px;
+
+}
+button{
+    font-size: 18px;
+}
+div{
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
