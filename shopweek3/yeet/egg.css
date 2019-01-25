@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{
+	background-image:url(eggegg.jfif);
+	background-size: cover;
+}
+
+.finna{
+	font-size: 24px;
+	color: green;
+}
+
+p a{
+	text-decoration: underline;
+	color: aqua;
+}
