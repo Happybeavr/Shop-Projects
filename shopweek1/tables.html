@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tables</title>
+	<style>
+		table,tr,th,td{
+			border:1px solid blue;
+			text-align:center;
+		}
+		th,td{
+			padding:15px;
+		}
+		td{
+			background-color:thistle;
+		}
+		body{
+			background-image: url("img/bg.jpg");
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 200px;
+			background-color: green;
+		}
+
+		li, a{
+			display:block;
+			color: aqua;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+
+		li, a:hover{
+			background-color: darkgreen;
+			color:white;
+		}
+	</style>
+</head>
+<body>
+
+
+
+	<ul>
+		<li><a href="tables.png">Tables</a></li>
+		<li><a href="hyperlinks.html">Hyperlinks</a></li>
+		<li><a href="images.html">Mapping</a></li>
+		<li><a href="video.html">Video</a></li>
+	</ul>
+
+
+
+	<table style="width:50%">
+		<colgroup>
+			<col span="3" style="background-color:yellow;" />
+		</colgroup>
+		<caption style="font-size:large;">About Me</caption>
+		<tr>
+			<th style="background-color:aquamarine;">First Name</th>
+			<th style="background-color:lawngreen;">Last Name</th>
+			<th style="background-color:salmon;">Shop</th>
+		</tr>
+		<tr>
+			<td>Jason</td>
+			<td>Donaher</td>
+			<td>Internet</td>
+		</tr>
+	</table>
+</body>
+</html>

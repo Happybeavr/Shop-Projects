@@ -1,0 +1,61 @@
+﻿body
+{
+    background-color: darkgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 200px;
+			background-color: purple;
+            text-align:center;
+            align-content:center;
+            border:1px solid black;
+		}
+
+		li, a{
+			display:block;
+			color: aqua;
+			padding: 8px 16px;
+			text-decoration: none;
+
+
+		}
+
+        li{
+            border:1px solid black;
+        }
+
+		li, a:hover{
+			background-color: purple;
+			color:white;
+                        align-content:center;
+
+		}
+        h1{
+            color:salmon;
+            text-align:center;
+            background-color:black;
+        }
+        #ps41{
+            width:500px;
+            height:500px;
+        }
+        #xbox1{
+            width:700px;
+            height:500px;
+        }
+        #wii1{
+            width:650px;
+            height:500px;
+        }
+        #comps1{
+            width:700px;
+            height:500px;
+        }
+        #switch2{
+            width:700px;
+            height:500px;
+        }
