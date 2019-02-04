@@ -1,0 +1,15 @@
+
+body{
+  text-align:center;
+  font-family:arial;
+}
+
+#storeName {
+  color:black;
+  
+}
+#selling{
+  background-color:blue;
+  color:white;
+  padding: 3px 0px 3px 0px;
+}

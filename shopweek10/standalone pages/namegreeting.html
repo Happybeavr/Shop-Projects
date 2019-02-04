@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<script>
+		var name = prompt("What is your name?")
+		var today = new Date();
+		var currentHour = today.getHours();
+		var welcome;
+
+		if (currentHour >= 18) {
+			welcome = "Good evening,";
+		} else if (currentHour >= 12 && currentHour < 18) {
+			welcome = "Good afternoon,";
+		} else if (currentHour < 12) {
+			welcome = "Good morning,";
+		} else {
+			welcome = "Welcome,"
+		}
+		document.write(welcome + " " + name + ".");
+
+	</script>
+</head>
+<body>
+</body>
+</html>
