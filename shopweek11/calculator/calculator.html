@@ -1,0 +1,41 @@
+
+
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calcMain">
+    <form id="calcForm">
+    <input id="textBox" type="text" name=txt1 value="">
+    <br>
+    <input id="seven" class="mainBtn" type="button" name=btn7 value=7 onclick="displayNum(btn7.value)">
+    <input id="eight" class="mainBtn" type="button" name=btn8 value=8 onclick="displayNum(btn8.value)">
+    <input id="nine" class="mainBtn" type="button" name=btn9 value=9 onclick="displayNum(btn9.value)">
+    <input id="addition" class="mainBtn" type="button" name=addbtn value=+ onclick="displayNum(addbtn.value)">
+    <input id="clrBtn" type="button" name=clrbtn value=C onclick="clearBtn()">
+    <br>
+    <input id="four" class="mainBtn" type="button" name=btn4 value=4 onclick="displayNum(btn4.value)">
+    <input id="five" class="mainBtn" type="button" name=btn5 value=5 onclick="displayNum(btn5.value)">
+    <input id="six" class="mainBtn" type="button" name=btn6 value=6 onclick="displayNum(btn6.value)">
+    <input id="subtraction" class="mainBtn" type="button" name=subbtn value=- onclick="displayNum(subbtn.value)">
+    <br>
+    <input id="one" class="mainBtn" type="button" name=btn1 value=1 onclick="displayNum(btn1.value)">
+    <input id="two" class="mainBtn" type="button" name=btn2 value=2 onclick="displayNum(btn2.value)">
+    <input id="three" class="mainBtn" type="button" name=btn3 value=3 onclick="displayNum(btn3.value)">
+    <input id="multiplication" class="mainBtn" type="button" name=multbtn value=* onclick="displayNum(multbtn.value)">
+    <br>
+    <input id="zero" class="mainBtn" type="button" name=btn0 value=0 onclick="displayNum(btn0.value)">
+    <input id="decimal" class="mainBtn" type="button" name=decbtn value=. onclick="displayNum(decbtn.value)">
+    <input id="division" class="mainBtn" type="button" name=divbtn value=/ onclick="displayNum(divbtn.value)">
+    <input id="equals" class="mainBtn" type="button" name=equalbtn value== onclick="equal()">
+    <input id="onBtn" class="mainBtn" type="button" name=onbtn value=ON onclick="txt1.value='0'">
+</form>
+</div>
+</body>
+
+
+</html>

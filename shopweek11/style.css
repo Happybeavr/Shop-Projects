@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-image: url(calculatorbg.jpg);
+}
+#textBox{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+#calcMain {
+    width: 400px;
+    height: 400px;
+}
+
+.mainBtn {
+    width: 90px;
+    height: 90px;
+    margin-right: 0px;
+    font-size: 30px;
+}
+#clrBtn {
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    display: inline-block;
+    left: 397px;
+    position: absolute;
+}

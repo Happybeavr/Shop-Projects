@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+</head>
+
+<body>
+	<div id="content">
+		<p id="para1">
+			yuh yeet
+		</p>
+		<p id="para2">
+			finna hit that yuh
+		</p>
+		<p id="para3">
+			Don't click me
+		</p>
+	</div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+		$(function() {
+			$("#para1").click(function() {
+				$("#para2").text("Im boutta head out").delay(1000).fadeOut(1000);
+			})
+		})
+		$(function() {
+			$("#para2").click(function() {
+				$(this).slideDown(1000);
+			});
+		});
+		$(function() {
+			$("#para3").click(function() {
+				$(this).text("I warned you.").animate( {
+									fontSize:"150px"
+								 });
+			});
+		});
+	</script>
+</body>
+</html>

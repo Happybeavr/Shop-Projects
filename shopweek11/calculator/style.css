@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    background-image: url(calculatorbg.jpg);
+    background-size: cover;
+    font-style: arial;
+}
+#textBox{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    background-color: rgb(162, 175, 119);
+    border:none;
+    top: 270px;
+    left: 382px;
+}
+
+.mainBtn {
+    width: 90px;
+    height: 90px;
+    margin-right: 0px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#clrBtn {
+    width: 100px;
+    height: 65px;
+    font-size: 30px;
+    display: inline-block;
+    left: 500px;
+    position: absolute;
+    top: 405px;
+}
+#seven {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:382px;
+    top: 498px;
+}
+#eight {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:500px;
+    top: 498px;
+}
+#nine {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:623px;
+    top: 498px;
+}
+#four {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:382px;
+    top: 587px;
+}
+#five {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:500px;
+    top: 587px;
+}
+#six {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:623px;
+    top: 587px;
+}
+#one {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:382px;
+    top: 678px;
+}
+#two {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:500px;
+    top: 678px;
+}
+#three {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:623px;
+    top: 678px;
+}
+#decimal {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:623px;
+    top: 768px;
+}
+#zero {
+    height:65px;
+    width: 216px;
+    position: absolute;
+    left:384px;
+    top: 768px;
+}
+#addition {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:740px;
+    top: 587px;
+}
+#subtraction {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:740px;
+    top: 498px;
+}
+#multiplication {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:740px;
+    top: 405px;
+}
+#division {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:623px;
+    top: 405px;
+}
+#equals {
+    height: 157px;
+    width: 101px;
+    position: absolute;
+    left:739px;
+    top: 677px;
+    background-color: darkorange;
+}
+#onBtn {
+    height:65px;
+    width: 100px;
+    position: absolute;
+    left:382px;
+    top: 405px;
+}
