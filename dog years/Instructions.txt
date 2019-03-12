@@ -1,0 +1,6 @@
+The first 2 years of a dog's life count as 10.5 dog years each.
+
+Each year following equates to 4 dog years.
+
+Calculate age 
+Alert

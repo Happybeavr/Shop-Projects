@@ -1,0 +1,7 @@
+Give some options (Answers)
+
+What variables do we want?
+-get question and ignore it completely
+-Math.random()
+-Math.floor()
+-Switch statement based on random generator

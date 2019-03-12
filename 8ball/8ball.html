@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Magic 8 Ball</title>
+	<script>
+	function ball () {
+		
+	
+	//welcome
+	//alert("Welcome, yeeter")
+	//ask question
+	//prompt("What is your question?")
+	//random number generator
+	const randNum = Math.floor(Math.random() * 8);
+	//answers
+		const randNum2 = Math.floor(Math.random() * 8);
+		switch (randNum2) {
+		case 0:
+			alert("Are you healthy");
+			break;
+		case 1:
+			alert("Is your day going well");
+			break;
+		case 2:
+			alert("are you an egg");
+			break;
+		case 3:
+			alert("will your life get better");
+			break;
+		case 4:
+			alert("do you exist");
+			break;
+		case 5:
+			alert("will you leave this place");
+			break;
+		case 6:
+			alert("would you survive an apocolypse");
+			break;
+		case 7:
+			alert("are you prepared for the next answer");
+			break;
+			
+			
+	}
+	switch (randNum) {
+		case 0:
+			alert("yes");
+			break;
+		case 1:
+			alert("no");
+			break;
+		case 2:
+			alert("not likely");
+			break;
+		case 3:
+			alert("maybe");
+			break;
+		case 4:
+			alert("definitely not");
+			break;
+		case 5:
+			alert("absolutely");
+			break;
+		case 6:
+			alert("ask again");
+			break;
+		case 7:
+			alert("dont ask again");
+			break;
+			
+			
+	}
+	}
+		
+		
+	
+	</script>
+	</head>
+
+	<body>
+    <button onClick="ball()">click to commit ball</button>
+</body>
+</html>

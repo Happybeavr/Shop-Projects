@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dog Years</title>
+<style>
+
+</style>
+<link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<button id= "dogBtn" onclick = "epicDog()">Calculate your age in dog years!</button>
+<script>
+	function epicDog() {
+		var age = prompt("What is your age? (Please round to a whole number)");
+		var dogAge = (age - 2) * 4 + 21;
+		if (age <= 0) {
+			alert("Please insert a valid age");
+		}else if (age == 1) {
+			dogAge = 10.5;
+			alert ("You are " + dogAge + " years old in dog years!");
+		}else {
+			alert ("You are " + dogAge + " years old in dog years!");
+		}
+		
+	}
+</script>
+</body>
+</html>
