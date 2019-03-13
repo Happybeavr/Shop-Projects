@@ -1,0 +1,3 @@
+make a site that will apply a race number to a person who enters an age
+
+based on age will get different results

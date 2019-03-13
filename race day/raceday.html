@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Race Day</title>
+</head>
+
+<body>
+
+
+<button onClick="raceFunct()" >are egg</button>
+
+
+
+
+
+<script>
+	function raceFunct() {
+		var raceNum = Math.floor(Math.random() * 1001)
+		var early = true;
+		var racerAge = prompt("How old are you?");
+		
+		if (racerAge >= 18 && early) {
+			raceNum += 1000;
+		}
+		
+		if (racerAge >= 18 && early == true) {
+			alert ("Your race will start at 9:30 AM. Your number is " + raceNum + ".")
+		}
+		else if (racerAge >= 18 && early == false) {
+			alert ("Your race will start at 11:00 AM. Your number is " + raceNum + ".")
+		}
+		else if (racerAge < 18) {
+			alert("Your race will start at 12:30 PM. Your number is " + raceNum + ".")
+		}
+		else {
+			alert("You don't exist lol")
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+</body>
+</html>
