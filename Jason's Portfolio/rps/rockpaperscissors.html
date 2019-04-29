@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	
+	#reloadBtn {
+		font-size: 40px;
+	}	
+	
+.throwBtn {
+	font-size: 50px;
+	width: 33%;
+	margin-left: 3px;
+	height: 400px;
+	float: left;
+}
+	body {
+		background-image: url(../images/rpsimg.jpg);
+		background-size: cover;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<button id="reloadBtn">Click to Retry</button>
+<script>
+
+	var playerThrow = prompt ("Rock, paper, or scissors?").toUpperCase();
+
+	
+	
+	var randNum = Math.floor(Math.random() * 3);
+	switch (randNum) {
+		case 0:
+			var compThrow = "scissors".toUpperCase();
+			break;
+		case 1:
+			var compThrow = "rock".toUpperCase();
+			break;
+		case 2:
+			var compThrow = "paper".toUpperCase();
+			break;
+		default:
+			var compThrow = "tactical nuke".toUpperCase();
+			break;
+			
+	}
+	
+		if (playerThrow === "ROCK") {
+		if (compThrow === "SCISSORS") {
+			alert ("The computer has thrown Scissors. You win!")
+		} else if (compThrow === "ROCK") {
+			alert ("The computer has thrown Rock. It's a draw!")
+		} else if (compThrow === "PAPER") {
+			alert ("The computer has thrown Paper. You lose!")
+		} else if (compThrow === "TACTICAL NUKE") {
+			alert ("The computer has thrown Tactical Nuke. You have been destroyed.")
+		}
+	}else if (playerThrow === "SCISSORS") {
+		if (compThrow === "SCISSORS") {
+			alert ("The computer has thrown Scissors. It's a draw!")
+		}else if (compThrow === "ROCK") {
+			alert ("The computer has thrown Rock. You lose!")
+		} else if (compThrow === "PAPER") {
+			alert ("The computer has thrown Paper. You win!")
+		} else if (compThrow === "TACTICAL NUKE") {
+			alert ("The computer has thrown Tactical Nuke. You have been destroyed.")
+		}
+	}else if (playerThrow === "PAPER") {
+		if (compThrow === "SCISSORS") {
+			alert ("The computer has thrown Scissors. You lose!")
+		}else if (compThrow === "ROCK") {
+			alert ("The computer has thrown Rock. You win!")
+		} else if (compThrow === "PAPER") {
+			alert ("The computer has thrown Paper. It's a draw!")
+		} else if (compThrow === "TACTICAL NUKE") {
+			alert ("The computer has thrown Tactical Nuke. You have been destroyed.")
+		}
+	} else {
+		alert("Please enter a valid throw")
+	}
+		console.log (playerThrow); 
+		console.log (compThrow);
+	
+	
+	//for testing
+	/*
+	function display() {
+		console.log (playerThrow);
+	}
+	*/
+	
+	$('#reloadBtn').click(function() {
+    location.reload();
+	});
+	</script>
+</body>
+</html>

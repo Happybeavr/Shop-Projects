@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Magic 8 Ball</title>
+<script>
+	function ball () {
+		
+	
+	//welcome
+	//alert("Welcome, yeeter")
+	//ask question
+	//prompt("What is your question?")
+	//random number generator
+	const randNum = Math.floor(Math.random() * 8);
+	//answers
+	var answer2 = "";	
+			
+			
+	}
+	switch (randNum) {
+		case 0:
+			answer2 = ("yes");
+			break;
+		case 1:
+			answer2 = ("no");
+			break;
+		case 2:
+			answer2 = ("not likely");
+			break;
+		case 3:
+			answer2 = ("maybe");
+			break;
+		case 4:
+			answer2 = ("definitely not");
+			break;
+		case 5:
+			answer2 = ("absolutely");
+			break;
+		case 6:
+			answer2 = ("ask again");
+			break;
+		case 7:
+			answer2 = ("dont ask again");
+			break;
+			
+			
+	}
+	}
+		
+		
+	
+	</script>
+<style>
+#ball {
+	height: 300px;
+	width: 300px;
+}
+#ball:active {
+	animation: shake 0.5s;
+}
+ @keyframes shake {
+ 25% {
+transform: translate(5px, 5px);
+}
+ 50% {
+transform: translate(-10px, -10px);
+}
+ 75% {
+transform: translate(10px, 10px);
+}
+ 100% {
+transform: translate(-5px, -5px);
+}
+}
+</style>
+</head>
+
+<body>
+<img onclick="ball()" id="ball" src="8ballpic.jpg" />
+<h1 id="answer">Ask your question out loud!</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script>
+		$("#ball").click(function() {
+			var changed = $("#answer");
+			
+			$("#answer").fadeTo("fast", 0).delay(1000);
+			$("#answer").html()
+		})
+		
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+section {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#btn {
+	border: 1px solid black;
+	font-size: 24px;
+	box-shadow: 0 15px 0 0 #999;
+	background-color: hotpink;
+	padding: 50px;
+	border-radius: 1em;
+}
+#btn:hover {
+	background-color: deeppink;
+	transition: 0.2s;
+}
+#btn:active {
+	transform: translateY(10px);
+	box-shadow: 0 5px 0 0 #666;
+}
+

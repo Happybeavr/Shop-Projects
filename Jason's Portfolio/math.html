@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Math</title>
+<link href="css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+	<header id="noMarquee" class="head">Math</header>
+	<div id="navWrapper">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="navButton"> <a>About</a>
+				<div class="dropdown">
+					<ul>
+						<li><a href="https://jasondonaher.wordpress.com/">My Blog</a></li>
+						<li><a href="hobbies.html">Hobbies</a></li>
+						<li><a href="volunteer.html">Volunteering</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="navButton"> <a>Shop</a>
+				<ul class="dropdown">
+					<li><a href="shopsummary.html">Summary</a></li>
+					<li><a href="projects.html">Projects</a></li>
+				</ul>
+			</li>
+			<li class="navButton"> <a>Contact</a>
+				<div class="dropdown">
+					<ul>
+						<li><a href="contact.html">Email</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="navButton"><a>Academics</a>
+				<div class="dropdown">
+					<ul>
+						<li><a href="math.html">Mathematics</a></li>
+						<li><a href="english.html">English</a></li>
+						<li><a href="history.html">History</a></li>
+						<li><a href="biology.html">Biology</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="navButton"> <a>Helpful Links</a>
+				<div class="dropdown">
+					<ul>
+						<li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+						<li><a href="http://www.shawsheentech.org/">Shawsheen Tech Website</a></li>
+						<li><a href="https://www.pluralsight.com/">Pluralsight</a></li>
+					</ul>
+				</div>
+			</li>
+			<li> <a href="languages.html">Languages</a> </li>
+		</ul>
+	</div>
+	
+	<p class="pageParagraph">I got a 100% on our first quiz.<br>
+My final grade for term 3 was a 96%; A+!</p>
+	
+	<img class="academicImg" src="images/20190329_080627.jpg" alt="Math Quiz" width="500">
+	
+	<div id="dateWrapper">
+		<p id="date">PLACEHOLDER</p>
+	</div>
+	<script>
+		//Code for the date at the bottom.
+		var currentDate = new Date();
+		var month = currentDate.getMonth();
+		var year = currentDate.getFullYear();
+		var day = currentDate.getDate();
+		var fullDate = (month+1) + "/" + day + "/" + year;
+		document.getElementById("date").innerHTML = fullDate;
+	
+	
+	</script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script>
+	
+		$(function() {
+			$(".navButton").mouseenter(function() {
+				$(this).children(".dropdown").slideDown("fast");
+			})
+		});
+		$(function() {
+			$(".navButton").mouseleave(function() {
+				$(this).children(".dropdown").slideUp("fast");
+			})
+		});
+	
+	</script>
+</div>
+</body>
+</html>

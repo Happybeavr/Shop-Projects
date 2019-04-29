@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: navajowhite;
+}
+#catPets {
+	border: none;
+	padding: 15px;
+	box-shadow: 0 9px 0 0 #999;
+}
+#catPets:active {
+	transform: translateY(4px);
+	box-shadow: 0 5px 0 0 #666;
+}
+#eggs {
+	border: none;
+	padding: 15px;
+	box-shadow: 0 9px 0 0 #999;
+}
+#eggs:active {
+	transform: translateY(4px);
+	box-shadow: 0 5px 0 0 #666;
+}
+#things {
+	border: none;
+	padding: 15px;
+	box-shadow: 0 9px 0 0 #999;
+}
+#things:active {
+	transform: translateY(4px);
+	box-shadow: 0 5px 0 0 #666;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Temperature Conversions</title>
+<link href="../css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+  <p id="tempParagraph">It is currently 293 degrees Kelvin.</p>
+  <button class = "weatherButton" onclick = "fahrenheit()" style = "margin-bottom: 10px;">Click me to convert Kelvin to Fahrenheit!</button>
+  <br>
+  <button class = "weatherButton" onclick = "newton()">Click me to convert Kelvin to Newton Scale!</button>
+  <br>
+  <br>
+  <br>
+</div>
+<script>
+		//Declare Kelvin
+		const k = 293;
+		//Convert Kelvin to Celsius
+		var c = k - 273;
+		//Convert Celsius to Fahrenheit
+		var f = c * (9/5) + 32;
+		//Round Fahrenheit Result
+		var fahrenheitRound = Math.floor(f);
+		//Celsius to Newton Scale
+		var n = c * (33/100)
+		//Round Down Newton Scale
+		var newtonRound = Math.floor(n);
+		
+		//Function to Alert Conversion to Fahrenheit
+		function fahrenheit () {
+			alert("It is currently " + fahrenheitRound + " degrees Fahrenheit outside.")
+		}
+		//Function to Alert Conversion to Newton Scale
+		function newton () {
+			alert("It is currently " + newtonRound + " degrees Newton outside.")
+		}
+	
+	</script>
+</body>
+</html>

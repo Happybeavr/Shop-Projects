@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<h1 id="storeName">Not Even a Dollar Store</h1>
+<marquee id="selling">
+Where everything is less than a dollar!
+</marquee>
+<p id="status">Yes</p>
+<script>
+	  
+	var today = new Date();
+	var currentHour = today.getHours();
+	var closeOpen;
+	var para = document.getElementById("status");
+
+
+	if (currentHour >= 10 && currentHour < 20) {
+  closeOpen = "Come in we are open!";
+	} else if (currentHour < 10 || currentHour >= 20) {
+    closeOpen = "Closed Now";
+	} else {
+    closeOpen = "Store hours are 10am-8pm";
+	}
+	para.innerHTML = closeOpen;
+  </script>
+</body>
+</html>
